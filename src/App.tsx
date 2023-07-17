@@ -45,7 +45,7 @@ function App() {
           element: <AdminManagement />,
         },
         {
-          path: "/service",
+          path: "/services",
           element: <ServiceManagement />,
         },
         {
