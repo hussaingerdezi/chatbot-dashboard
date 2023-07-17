@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { store } from "./app/store.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <Provider store={store}>
+  <React.StrictMode >
     <App />
-  </Provider>
+  </React.StrictMode>
 );
